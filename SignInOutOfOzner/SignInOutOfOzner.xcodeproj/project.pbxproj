@@ -18,7 +18,6 @@
 		E06543E31FC3CFA10050B283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06543E21FC3CFA10050B283 /* AppDelegate.swift */; };
 		E06543E51FC3CFA10050B283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06543E41FC3CFA10050B283 /* ViewController.swift */; };
 		E06543E81FC3CFA10050B283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06543E61FC3CFA10050B283 /* Main.storyboard */; };
-		E06543EA1FC3CFA10050B283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06543E91FC3CFA10050B283 /* Assets.xcassets */; };
 		E06543ED1FC3CFA10050B283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06543EB1FC3CFA10050B283 /* LaunchScreen.storyboard */; };
 		E06543FA1FC3EF4F0050B283 /* UserServicer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06543F91FC3EF4F0050B283 /* UserServicer.swift */; };
 		E06543FC1FC3EFBF0050B283 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06543FB1FC3EFBF0050B283 /* BaseAPI.swift */; };
@@ -31,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		37EC363867ED5B488AC0D181 /* Pods-SignInOutOfOzner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInOutOfOzner.release.xcconfig"; path = "Pods/Target Support Files/Pods-SignInOutOfOzner/Pods-SignInOutOfOzner.release.xcconfig"; sourceTree = "<group>"; };
+		68DE72601FC6B2CD0016D365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C49049F67ABE4A653D0CEBF5 /* Pods_SignInOutOfOzner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInOutOfOzner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAD5D1ECB5EB79C177ED0F8 /* Pods-SignInOutOfOzner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInOutOfOzner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignInOutOfOzner/Pods-SignInOutOfOzner.debug.xcconfig"; sourceTree = "<group>"; };
 		E02ED47B1FC3F3AE00F7F7C8 /* RNHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHud.swift; sourceTree = "<group>"; };
@@ -44,7 +44,6 @@
 		E06543E21FC3CFA10050B283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E06543E41FC3CFA10050B283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E06543E71FC3CFA10050B283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E06543E91FC3CFA10050B283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E06543EC1FC3CFA10050B283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E06543EE1FC3CFA10050B283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E06543F91FC3EF4F0050B283 /* UserServicer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServicer.swift; sourceTree = "<group>"; };
@@ -133,8 +132,8 @@
 				E06543E21FC3CFA10050B283 /* AppDelegate.swift */,
 				E06543E41FC3CFA10050B283 /* ViewController.swift */,
 				E0A6786C1FC526E500578E9E /* SelectionController.swift */,
+				68DE72601FC6B2CD0016D365 /* Assets.xcassets */,
 				E06543E61FC3CFA10050B283 /* Main.storyboard */,
-				E06543E91FC3CFA10050B283 /* Assets.xcassets */,
 				E06543EB1FC3CFA10050B283 /* LaunchScreen.storyboard */,
 				E06543F91FC3EF4F0050B283 /* UserServicer.swift */,
 			);
@@ -225,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06543ED1FC3CFA10050B283 /* LaunchScreen.storyboard in Resources */,
-				E06543EA1FC3CFA10050B283 /* Assets.xcassets in Resources */,
 				E06543E81FC3CFA10050B283 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
