@@ -51,6 +51,7 @@ struct UserServicer {
                 model.token = userToken
                 model.server = data["cpServer"].stringValue
                 successClourue?(model)
+                
             }
             
         }) { (msg, code) in
