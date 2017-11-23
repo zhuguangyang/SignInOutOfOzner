@@ -34,6 +34,32 @@ struct UserServicer {
         }
     }
     
+    /// 登陆
+    ///
+    /// - Parameters:
+    ///   - parameter: <#parameter description#>
+    ///   - successClourue: <#successClourue description#>
+    ///   - failureClousure: <#failureClousure description#>
+    static func tokenLogin(_ parameter: [String: Any], successClourue: ((LoginModel) -> Void)?, failureClousure: ((String, Int) -> Void)?){
+        let _ = RNNetworkManager.shared.post(TokenLogin, parameters: parameter, successClourue: { (result) in
+            
+            let responseText =  result["responseText"].stringValue
+            let data =  result["data"]
+            if responseText == "成功" {
+
+                var model = LoginModel()
+                model.token = userToken
+                model.server = data["cpServer"].stringValue
+                successClourue?(model)
+                
+            }
+            
+        }) { (msg, code) in
+            failureClousure?(msg, code)
+        }
+    }
+    
+    
     
     /// 签到页面信息
     ///

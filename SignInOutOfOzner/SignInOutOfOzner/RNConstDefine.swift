@@ -15,6 +15,8 @@ import UIKit
 // 关于版本
 let AppStoreAddress = "https://itunes.apple.com/cn/app/SpecialHoyoServicer/id1276976640?mt=8" // 应用商店地址
 
+let userToken = "3baaba88-ffa5-42db-9693-a62e65456b48"
+
 // 关于屏幕
 let SCREEN_BOUNDS = UIScreen.main.bounds
 let SCREEN_WIDTH = UIScreen.main.bounds.width

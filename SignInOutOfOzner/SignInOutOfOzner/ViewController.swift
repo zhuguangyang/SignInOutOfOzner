@@ -19,6 +19,9 @@ class ViewController: UIViewController {
     
     @IBAction func clickAction(_ sender: UIButton) {
         switch sender.tag {
+        case 50:
+            tokenLogin()
+            break
         case 100:
             // 登陆
             login()
@@ -66,7 +69,11 @@ class ViewController: UIViewController {
         return array
     }()
     // 登陆参数 -  当前默认 : zwx --->  不同的人 "loginUserName": "6YOR5paH56Wl", "password": "MzI4OTI4" 两个字段不同
-    var loginParam: [String: Any] = ["loginUserName": "6YOR5paH56Wl", "password": "MzI4OTI4", "udid": "A7D5EDBE-5529-1803-4DCC-45360B5F0688-1507863771-394855", "companyName": "5rWp5rO96ZuG5Zui", "registrationId":"1114a8979291e13fadf", "deviceInfo": ["platform": "ios", "version":"11.1.2", "manufactor":"apple"]] as [String : Any]
+    var loginParam: [String: Any] = ["loginUserName": "5pyx5YWJ6Ziz", "password": "emh1NjY2NjY2", "udid": "1F4CAED9-3C3E-0960-3BA4-D6B78F75D354-1507882888-935494", "companyName": "5rWp5rO96ZuG5Zui", "registrationId":"13165ffa4e3035a47ed", "deviceInfo": ["platform": "ios", "version":"10.3.1", "manufactor":"apple"]] as [String : Any]
+    
+    //Token登陆参数
+    
+    var tokenLoginParam:[String: Any] = ["accessToken":userToken,"deviceInfo": ["platform": "ios", "version":"10.3.1", "manufactor":"apple"]] as [String : Any]
     var showString: String = ""
     lazy var loginModel: LoginModel = {
         return LoginModel()
@@ -123,6 +130,28 @@ class ViewController: UIViewController {
 }
 
 extension ViewController {
+    
+    func tokenLogin() {
+        
+        RNHud().showHud(nil)
+        
+        UserServicer.tokenLogin(tokenLoginParam, successClourue: { (result) in
+            RNHud().hiddenHub()
+            self.loginModel = result
+            
+            DispatchQueue.main.async {
+                self.showString = "token: \(result.token!)\nserver: \(result.server!)"
+                self.textView.text = self.showString
+            }
+            RNNoticeAlert.showSuccess("提示", body: "登陆成功", duration: 0.2)
+        }) { (msg, code) in
+            RNHud().hiddenHub()
+            RNNoticeAlert.showError("提示", body: msg)
+        }
+        
+        
+    }
+    
     func login() {
         RNHud().showHud(nil)
         
