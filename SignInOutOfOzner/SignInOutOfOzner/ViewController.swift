@@ -95,7 +95,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.title = "zwx"
+        self.title = "你最美"
     }
 
     override func didReceiveMemoryWarning() {
