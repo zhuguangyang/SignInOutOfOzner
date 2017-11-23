@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68DAE19B1FC6BF0300CC83C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DE72601FC6B2CD0016D365 /* Assets.xcassets */; };
 		B95EC513C6EE24548FF2A460 /* Pods_SignInOutOfOzner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49049F67ABE4A653D0CEBF5 /* Pods_SignInOutOfOzner.framework */; };
 		E02ED47C1FC3F3AE00F7F7C8 /* RNHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02ED47B1FC3F3AE00F7F7C8 /* RNHud.swift */; };
 		E02ED47E1FC3F3B800F7F7C8 /* RNNoticeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02ED47D1FC3F3B800F7F7C8 /* RNNoticeAlert.swift */; };
@@ -224,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06543ED1FC3CFA10050B283 /* LaunchScreen.storyboard in Resources */,
+				68DAE19B1FC6BF0300CC83C8 /* Assets.xcassets in Resources */,
 				E06543E81FC3CFA10050B283 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,10 +457,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEAD5D1ECB5EB79C177ED0F8 /* Pods-SignInOutOfOzner.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcons;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZZG6NM74T;
+				DEVELOPMENT_TEAM = J24KP524YC;
 				INFOPLIST_FILE = SignInOutOfOzner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -474,10 +476,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37EC363867ED5B488AC0D181 /* Pods-SignInOutOfOzner.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcons;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZZG6NM74T;
+				DEVELOPMENT_TEAM = J24KP524YC;
 				INFOPLIST_FILE = SignInOutOfOzner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

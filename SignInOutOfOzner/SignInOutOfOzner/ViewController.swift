@@ -73,7 +73,7 @@ class ViewController: UIViewController {
     
     //Token登陆参数
     
-    var tokenLoginParam:[String: Any] = ["accessToken":userToken,"deviceInfo": ["platform": "ios", "version":"10.3.1", "manufactor":"apple"]] as [String : Any]
+    var tokenLoginParam:[String: Any] = ["accessToken":userToken,"deviceInfo": ["platform": "ios", "version":"11.1.1", "manufactor":"apple"]] as [String : Any]
     var showString: String = ""
     lazy var loginModel: LoginModel = {
         return LoginModel()
@@ -280,7 +280,7 @@ extension ViewController {
             break
         }
         // "accessToken": token
-        
+        //fcd72a51-f1c4-47dd-ae53-67b6e8cad710
 //        let s = dicToJsonString(fp)
 //        guard let info = s else{
 //            RNNoticeAlert.showError("提示", body: "json串生成失败")
