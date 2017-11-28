@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         return array
     }()
     // 登陆参数 -  当前默认 : zwx --->  不同的人 "loginUserName": "6YOR5paH56Wl", "password": "MzI4OTI4" 两个字段不同
-    var loginParam: [String: Any] = ["loginUserName": "5pyx5YWJ6Ziz", "password": "emh1NjY2NjY2", "udid": "1F4CAED9-3C3E-0960-3BA4-D6B78F75D354-1507882888-935494", "companyName": "5rWp5rO96ZuG5Zui", "registrationId":"13165ffa4e3035a47ed", "deviceInfo": ["platform": "ios", "version":"10.3.1", "manufactor":"apple"]] as [String : Any]
+    var loginParam: [String: Any] = ["loginUserName": "5pyx5YWJ6Zi", "password": "emh1NjY2NY2", "udid": "1F4CAED9-3C3E-0960-3BA4-D6B78F75D354-1507882888-935494", "companyName": "5rWp5rO96ZuG5Zui", "registrationId":"13165ffa4e3035a47ed", "deviceInfo": ["platform": "ios", "version":"10.3.1", "manufactor":"apple"]] as [String : Any]
     
     //Token登陆参数
     
@@ -213,7 +213,7 @@ extension ViewController {
             RNHud().hiddenHub()
             RNNoticeAlert.showError("提示", body: msg)
             // 当坐标位置不对时用这个坐标 ---- 坐标数组里的坐标不是每个都测试了
-            let model = LocationModel(latitude: "31.24179053588886", longitude: "121.60099938523173")
+            let model = LocationModel(latitude: "31.26179053588886", longitude: "121.70099938523173")
             self.cordinations = [model]
         }
     }
