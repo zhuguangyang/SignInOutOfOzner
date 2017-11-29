@@ -18,10 +18,8 @@ let BASEURL = "http://www.winployee.com" // 使用
 // MARK: Key
 
 
-
 //MARK: - error code
 let successCode = 0 // 大于0是算请求成功
-
 
 // 接口 path
 
