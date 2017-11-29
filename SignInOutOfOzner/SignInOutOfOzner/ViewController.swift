@@ -140,6 +140,7 @@ extension ViewController {
             self.loginModel = result
             
             DispatchQueue.main.async {
+                
                 self.showString = "token: \(result.token!)\nserver: \(result.server!)"
                 self.textView.text = self.showString
             }

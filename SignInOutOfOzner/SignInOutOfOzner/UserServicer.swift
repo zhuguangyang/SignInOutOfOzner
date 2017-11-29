@@ -45,8 +45,10 @@ struct UserServicer {
             
             let responseText =  result["responseText"].stringValue
             let data =  result["data"]
+            
             if responseText == "成功" {
 
+                signUrl = data["cpServer"].stringValue
                 var model = LoginModel()
                 model.token = userToken
                 model.server = data["cpServer"].stringValue
