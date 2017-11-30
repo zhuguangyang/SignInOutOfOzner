@@ -108,7 +108,7 @@ struct UserServicer {
         }
     }
     
-    
+
     /// 签退
     ///
     /// - Parameters:
