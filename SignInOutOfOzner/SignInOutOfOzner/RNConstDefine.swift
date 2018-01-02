@@ -18,7 +18,7 @@ let AppStoreAddress = "https://itunes.apple.com/cn/app/SpecialHoyoServicer/id127
 //let userToken = "3baaba88-ffa5-42db-9693-a62e65456b48"
 //let userToken = "fcd72a51-f1c4-47dd-ae53-67b6e8cad710"
 //let userToken = "57d0ea9d-9120-491b-a408-b16a4550ce15"
-let userToken = "9ad45bf6-3b6f-4a71-8898-4eef1c259970"
+let userToken = "a3f0ecd9-0f0f-4903-a9a8-69da58c9f908"
 // 关于屏幕
 let SCREEN_BOUNDS = UIScreen.main.bounds
 let SCREEN_WIDTH = UIScreen.main.bounds.width
