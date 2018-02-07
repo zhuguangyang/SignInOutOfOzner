@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68667B2B202A8E88005C8B4D /* GYSign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68667B2A202A8E88005C8B4D /* GYSign.storyboard */; };
+		68667B2D202A908C005C8B4D /* GYSignVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68667B2C202A908C005C8B4D /* GYSignVc.swift */; };
 		68DAE19B1FC6BF0300CC83C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DE72601FC6B2CD0016D365 /* Assets.xcassets */; };
 		B95EC513C6EE24548FF2A460 /* Pods_SignInOutOfOzner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49049F67ABE4A653D0CEBF5 /* Pods_SignInOutOfOzner.framework */; };
 		E02ED47C1FC3F3AE00F7F7C8 /* RNHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02ED47B1FC3F3AE00F7F7C8 /* RNHud.swift */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		37EC363867ED5B488AC0D181 /* Pods-SignInOutOfOzner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInOutOfOzner.release.xcconfig"; path = "Pods/Target Support Files/Pods-SignInOutOfOzner/Pods-SignInOutOfOzner.release.xcconfig"; sourceTree = "<group>"; };
+		68667B2A202A8E88005C8B4D /* GYSign.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GYSign.storyboard; sourceTree = "<group>"; };
+		68667B2C202A908C005C8B4D /* GYSignVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYSignVc.swift; sourceTree = "<group>"; };
 		68DE72601FC6B2CD0016D365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C49049F67ABE4A653D0CEBF5 /* Pods_SignInOutOfOzner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInOutOfOzner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAD5D1ECB5EB79C177ED0F8 /* Pods-SignInOutOfOzner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInOutOfOzner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignInOutOfOzner/Pods-SignInOutOfOzner.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,8 +137,10 @@
 				E06543E21FC3CFA10050B283 /* AppDelegate.swift */,
 				E06543E41FC3CFA10050B283 /* ViewController.swift */,
 				E0A6786C1FC526E500578E9E /* SelectionController.swift */,
+				68667B2C202A908C005C8B4D /* GYSignVc.swift */,
 				68DE72601FC6B2CD0016D365 /* Assets.xcassets */,
 				E06543E61FC3CFA10050B283 /* Main.storyboard */,
+				68667B2A202A8E88005C8B4D /* GYSign.storyboard */,
 				E06543EB1FC3CFA10050B283 /* LaunchScreen.storyboard */,
 				E06543F91FC3EF4F0050B283 /* UserServicer.swift */,
 			);
@@ -225,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06543ED1FC3CFA10050B283 /* LaunchScreen.storyboard in Resources */,
+				68667B2B202A8E88005C8B4D /* GYSign.storyboard in Resources */,
 				68DAE19B1FC6BF0300CC83C8 /* Assets.xcassets in Resources */,
 				E06543E81FC3CFA10050B283 /* Main.storyboard in Resources */,
 			);
@@ -318,6 +325,7 @@
 				E02ED4851FC4057000F7F7C8 /* ShowModel.swift in Sources */,
 				E06543FA1FC3EF4F0050B283 /* UserServicer.swift in Sources */,
 				E02ED47C1FC3F3AE00F7F7C8 /* RNHud.swift in Sources */,
+				68667B2D202A908C005C8B4D /* GYSignVc.swift in Sources */,
 				E0A6786F1FC54E2C00578E9E /* RNLocationManager.swift in Sources */,
 				E06544001FC3EFD00050B283 /* RNNetworkManager.swift in Sources */,
 				E06543E31FC3CFA10050B283 /* AppDelegate.swift in Sources */,
@@ -460,7 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZZG6NM74T;
+				DEVELOPMENT_TEAM = J24KP524YC;
 				INFOPLIST_FILE = SignInOutOfOzner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -479,7 +487,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZZG6NM74T;
+				DEVELOPMENT_TEAM = J24KP524YC;
 				INFOPLIST_FILE = SignInOutOfOzner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="z57-Z0-2FS">
+            <objects>
+                <viewController id="9sF-q8-I0w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="snS-X4-3Dz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KmU-1D-dub">
+                                <rect key="frame" x="0.0" y="300" width="375" height="367"/>
+                                <subviews>
+                                    <button opaque="NO" tag="555" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8D-RM-XCv">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="121"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Osc-C3-MPS"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" tag="666" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULO-32-LuU">
+                                        <rect key="frame" x="0.0" y="121" width="375" height="121"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="FXU-xz-k2R"/>
+                                        </constraints>
+                                        <state key="normal" title="时间提醒"/>
+                                    </button>
+                                    <button opaque="NO" tag="777" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEe-EQ-yX0">
+                                        <rect key="frame" x="0.0" y="242" width="375" height="125"/>
+                                        <state key="normal" title="列表查询"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="PEe-EQ-yX0" secondAttribute="trailing" id="8fa-eM-BEh"/>
+                                    <constraint firstAttribute="trailing" secondItem="ULO-32-LuU" secondAttribute="trailing" id="BTa-GW-P9B"/>
+                                    <constraint firstItem="c8D-RM-XCv" firstAttribute="height" secondItem="KmU-1D-dub" secondAttribute="height" multiplier="0.33" id="FnP-rQ-D6H"/>
+                                    <constraint firstItem="PEe-EQ-yX0" firstAttribute="leading" secondItem="KmU-1D-dub" secondAttribute="leading" id="Iv7-cR-Isc"/>
+                                    <constraint firstItem="c8D-RM-XCv" firstAttribute="leading" secondItem="KmU-1D-dub" secondAttribute="leading" id="SH3-ae-kHd"/>
+                                    <constraint firstAttribute="trailing" secondItem="c8D-RM-XCv" secondAttribute="trailing" id="SQN-da-eV1"/>
+                                    <constraint firstItem="ULO-32-LuU" firstAttribute="top" secondItem="c8D-RM-XCv" secondAttribute="bottom" id="VFm-z0-X3E"/>
+                                    <constraint firstAttribute="bottom" secondItem="PEe-EQ-yX0" secondAttribute="bottom" id="bGE-Bb-xT9"/>
+                                    <constraint firstItem="c8D-RM-XCv" firstAttribute="top" secondItem="KmU-1D-dub" secondAttribute="top" id="fPv-ic-9GT"/>
+                                    <constraint firstItem="PEe-EQ-yX0" firstAttribute="top" secondItem="ULO-32-LuU" secondAttribute="bottom" id="jkc-MG-wXM"/>
+                                    <constraint firstItem="ULO-32-LuU" firstAttribute="leading" secondItem="KmU-1D-dub" secondAttribute="leading" id="uVl-g7-gTe"/>
+                                    <constraint firstItem="ULO-32-LuU" firstAttribute="height" secondItem="c8D-RM-XCv" secondAttribute="height" id="vCH-BG-ara"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WOD-xz-phr" firstAttribute="trailing" secondItem="KmU-1D-dub" secondAttribute="trailing" id="DQD-pQ-soW"/>
+                            <constraint firstItem="KmU-1D-dub" firstAttribute="leading" secondItem="snS-X4-3Dz" secondAttribute="leading" id="JO8-1X-Ge5"/>
+                            <constraint firstItem="KmU-1D-dub" firstAttribute="height" secondItem="snS-X4-3Dz" secondAttribute="height" multiplier="0.55" id="Ryj-r6-8TV"/>
+                            <constraint firstItem="KmU-1D-dub" firstAttribute="bottom" secondItem="WOD-xz-phr" secondAttribute="bottom" id="VOl-67-0VG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WOD-xz-phr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1w9-kC-wPs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9qp-nI-zEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-510" y="643"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fzA-Mi-nrR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZUk-pa-7Ko" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BgF-rR-Mv3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9sF-q8-I0w" kind="relationship" relationship="rootViewController" id="hQ2-LH-OaW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Li7-Uf-m4Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-144" y="-80.959520239880064"/>
+        </scene>
+    </scenes>
+</document>

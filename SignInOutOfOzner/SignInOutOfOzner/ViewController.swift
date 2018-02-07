@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         return array
     }()
     // 登陆参数 -  当前默认 : zwx --->  不同的人 "loginUserName": "6YOR5paH56Wl", "password": "MzI4OTI4" 两个字段不同
-    var loginParam: [String: Any] = ["loginUserName": "5pyx5YWJ6Zi", "password": "emh1NjY2NY2", "udid": "1F4CAED9-3C3E-0960-3BA4-D6B78F75D354-1507882888-935494", "companyName": "5rWp5rO96ZuG5Zui", "registrationId":"13165ffa4e3035a47ed", "deviceInfo": ["platform": "ios", "version":"10.3.1", "manufactor":"apple"]] as [String : Any]
+    var loginParam: [String: Any] = ["loginUserName": "5pyx5YWJ6Zi", "password": "emh1NjY2NY2", "udid": UIDevice.current.identifierForVendor?.uuidString ?? "A7D5EDBE-5529-1803-4DCC-45360B5F0688-1507863771-394837", "companyName": "5rWp5rO96ZuG5Zui", "registrationId":"13165ffa4e3035a47ed", "deviceInfo": ["platform": "ios", "version":"10.3.1", "manufactor":"apple"]] as [String : Any]
     
     //Token登陆参数
     
